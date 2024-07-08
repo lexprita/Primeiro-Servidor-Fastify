@@ -2,9 +2,9 @@
   "name": "14-primeiro-servidor-fastify",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "dev": "node dist/servidor.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "description": "",
   "dependencies": {
     "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
   }
 }
